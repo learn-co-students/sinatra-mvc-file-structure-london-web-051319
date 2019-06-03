@@ -8,4 +8,9 @@ class ApplicationController < Sinatra::Base
   get "/" do
   	erb :index
   end
+  # GET /
+  #   responds with a 200
+  #   renders index.erb
+
+
 end
